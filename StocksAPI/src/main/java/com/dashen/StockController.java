@@ -9,6 +9,6 @@ public class StockController {
 
 	@RequestMapping(value="/stocks", method=RequestMethod.GET)
 	public String m1() {
-		return "A list of stocks";
+		return "A list of stocks - attempt1";
 	}
 }
