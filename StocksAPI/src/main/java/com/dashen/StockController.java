@@ -14,6 +14,6 @@ public class StockController {
 	
 	@RequestMapping(value="/cicd", method=RequestMethod.GET)
 	public String m2() {
-		return "Welcome to CICD, if you see this line your CICD has succeeded";
+		return "Welcome to CICD, if you see this line your CICD has succeeded ONE";
 	}
 }
